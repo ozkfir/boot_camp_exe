@@ -1,0 +1,11 @@
+img{position: absolute;}
+span{position: relative ;
+    display:inline-block ;
+    background-color: antiquewhite;
+
+width: 60px;}
+
+#title{
+        opacity: 0.5;
+
+}

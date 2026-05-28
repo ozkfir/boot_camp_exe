@@ -1,0 +1,13 @@
+.row{
+    background-color: aquamarine;
+}
+
+table{
+        border-collapse: collapse;
+        border: 2px solid black;
+
+}
+td,th{
+        padding: 10px;
+    border-bottom: 1px solid black;
+}
