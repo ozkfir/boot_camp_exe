@@ -1,0 +1,102 @@
+.container{
+     margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;}
+
+#menu{
+ height: 30px;
+ background-color: antiquewhite;
+ display: flex;
+ gap:10px;
+
+}
+img{
+    height: 55%;
+    width: 40%;
+    border-radius: 50%; 
+    
+}
+a{
+    
+}
+.skils{
+       align-items: center;
+    justify-content: center;   
+    display: flex;
+}
+.about_me{
+       align-items: center;
+    justify-content: center;   
+    display: flex;
+
+}
+.son{
+       width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.home_l{
+    align-items: center;
+    justify-content: center;   
+    display: flex;
+    flex-direction: column;
+
+}
+.home_r{
+    align-items: center;
+    justify-content: center;   
+    display: flex;
+
+}
+#menu_l{display: flex;
+        flex: 1;
+
+justify-content: flex-start;   }
+#menu_r{
+    display: flex;
+        flex: 1;
+        gap :1vw;
+
+justify-content: flex-end;   }
+#home > *{
+           width: 50%;
+
+}
+#home{
+     display: flex;
+    height: 20%;
+           background-color: gainsboro;
+
+}
+#about{
+    height: 20%;
+        background-color: whitesmoke;
+
+}
+#project
+{
+        height: 30%;
+       background-color: gainsboro;
+
+}
+#contact
+{
+        height: 30%;
+
+        background-color: whitesmoke;
+}
+#bootom{
+     height: 30px;
+     background-color: blue;
+         display: flex;
+align-items: center; 
+     justify-content: center; 
+}
+@media (max-width: 768px){
+
+    .container{
+        flex-direction: column;
+    }
+
+}

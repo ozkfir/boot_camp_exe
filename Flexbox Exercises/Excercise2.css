@@ -1,0 +1,31 @@
+#parent{
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+    position: relative;
+}
+.class{
+    height: 50px;
+    width: 500px;
+        background-color: rgb(238, 139, 27);
+        position: absolute;
+
+}#child-1{
+    top: 20px;
+    height: 50px;
+    width: 500px;
+        background-color: rgb(238, 139, 27);
+        position: absolute;
+
+
+}
+#child-2{
+    left:  20px;
+    height: 500px;
+    width: 50px;
+        background-color: rgb(238, 139, 27);
+        position: absolute;
+
+
+}
+

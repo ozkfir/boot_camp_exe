@@ -1,0 +1,18 @@
+.background{
+    display: flex;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+#a{
+    width: 50%;
+    border-right: 2px solid black;
+}
+
+#b{
+    width: 50%;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+}

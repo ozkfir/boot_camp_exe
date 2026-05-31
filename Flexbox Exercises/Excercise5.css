@@ -1,0 +1,33 @@
+.container {
+  width: 600px;
+  background: #ddd;
+  padding: 20px;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.bottom {
+  display: flex;
+  gap: 10px;
+}
+
+.big {
+  flex: 2;
+  height: 250px;
+  background: royalblue;
+}
+
+.grid {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  width: calc(50% - 5px);
+  height: 120px;
+  background: royalblue;
+}
